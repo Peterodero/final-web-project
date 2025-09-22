@@ -19,6 +19,10 @@
       "src": "^/(.*\\.(html|css|js|png|jpg|jpeg|gif|svg|ico|txt))$",
       "dest": "/$1"
     },
+       {
+      "src": "^/images/(.*)$",
+      "dest": "/images/$1"
+    },
     {
       "src": "^(?:\\/(?!\\.well-known(?:\\/|$)))(.*)$",
       "dest": "/index.html"
